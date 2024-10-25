@@ -1,0 +1,442 @@
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'TT Norms Pro Regular';
+  font-size: 22px;
+
+
+}
+
+.container {
+  padding: 0 60px 0 60px;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  all: unset;
+}
+
+@font-face {
+  font-family: 'TT Norms Pro Bold';
+  src: url('../fonts/TT\ Norms\ Pro\ Trial\ Expanded\ Bold.ttf');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'TT Norms Pro DemiBold';
+  src: url('../fonts/TT\ Norms\ Pro\ Trial\ Expanded\ DemiBold.ttf');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'TT Norms Pro Regular';
+  src: url('../fonts/TT\ Norms\ Pro\ Trial\ Expanded\ Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms Pro Medium';
+  src: url('../fonts/TT\ Norms\ Pro\ Trial\ Expanded\ Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.content__width {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 315px),
+    url(../img/Main_banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  padding: 18px 0 68px 0;
+
+}
+
+.header__logo {
+  max-width: 152px;
+  font-family: 'TT Norms Pro Bold';
+  font-size: 19px;
+
+  background: linear-gradient(-90deg, #39B99A, #FED217, #FB9030, #F2225D);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.header__title-about {
+  font-family: 'TT Norms Pro Bold';
+  font-size: 136px;
+  line-height: auto;
+  margin-right: -8px;
+}
+
+.header__logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__menu {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  row-gap: 156px;
+}
+
+.header__list {
+  font-size: 20;
+  text-align: center;
+  transition: transform 0.5s ease;
+}
+
+.color_1:hover {
+  transform: scale(1.2);
+  color: #F2225D;
+  font-weight: 1000;
+}
+
+.color_2:hover {
+  transform: scale(1.2);
+  color: #39B99A;
+  font-weight: 1000;
+}
+
+.color_3:hover {
+  transform: scale(1.2);
+  color: #FED217;
+  font-weight: 1000;
+}
+
+.color_4:hover {
+  transform: scale(1.2);
+  color: #FB9030;
+  font-weight: 1000;
+}
+
+
+
+.header__desc-button {
+  margin-top: 482px;
+  align-items: flex-end;
+  display: flex;
+  justify-content: end;
+}
+
+.header__desc {
+  max-width: 964px;
+  align-items: left;
+  text-align: left;
+  justify-content: flex-start;
+  margin-right: 125px;
+}
+
+.header__desc-research {
+  font-family: 'TT Norms Pro Bold';
+  font-size: 44px;
+  max-width: 784px;
+  margin-top: 25px;
+  line-height: 110%;
+}
+
+.header__button-arrow {
+  background-color: #FED217;
+  border-radius: 11px;
+  padding: 13px;
+  cursor: pointer;
+}
+
+/*MAIN_SETTINGS*/
+
+.background {
+  background-image: url(../img/Main_background_fill__long.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding: 151px 0 60px 0;
+}
+
+/*SECTION_1_CONCEPT*/
+
+.conception__block {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.conteption__title {
+  font-family: 'TT Norms Pro Bold';
+  font-size: 48px;
+  margin-bottom: 32px;
+}
+
+.conception__text {
+  font-size: 22px;
+  max-width: 474px;
+  margin-bottom: 97px;
+}
+
+.conception__button {
+  background-color: #FED217;
+  border-radius: 11px;
+  padding: 18px 37px;
+  color: #000000;
+  font-size: 22px;
+  font-family: 'TT Norms Pro Bold';
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.conception__button:hover {
+  transform: scale(1.1);
+}
+
+.conception__img {
+  max-width: 675px;
+  height: auto;
+  border-radius: 11px;
+  border: 1px solid #000000;
+}
+
+/*SECTION_2_OFFER*/
+
+.offer {
+  margin-top: 202px;
+}
+
+.offer__title{
+font-size: 48px;
+font-family: 'TT Norms Pro Bold';
+}
+.offer__text{
+font-size: 24px;
+max-width: 552px;
+margin-top: 32px;
+}
+
+
+.colour_pink {
+  background-color: #F2225D; 
+}
+.colour_orange {
+  background-color: #FB9030;
+}
+.colour_yellow {
+  background-color: #FED217;
+}
+.colour_green {
+  background-color: #A9D86F;
+}
+.colour_blue {
+  background-color: #39B99A; 
+}
+
+.offer-margin {
+  margin-top: 70px;
+}
+.offer__block{
+  color: #000000;
+  border-radius: 11px;
+
+  display: flex;
+  /* position: relative; */
+  padding: 28px 37px 28px 37px;
+}
+
+.offer__card {
+  margin-left: 133px;
+  flex: 1 1 auto;
+   cursor: pointer;
+}
+.offer__card__number {
+  font-family: 'TT Norms Pro Bold';
+  font-size: 36px;
+}
+.offer__card__title {
+  font-size: 32px;
+  padding-left: 10px;
+  font-family: 'TT Norms Pro Medium';
+
+}
+.offer__hidden {
+    overflow: hidden;
+    max-height: 0;
+    transition: 0.3s;
+}
+
+.offer__hidden__content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.card__image {
+  max-width: 372px;
+  border-radius: 11px;
+  max-height: 234px;
+  margin-top: 36px;
+  /* position: absolute;
+  bottom: 0;
+  right: 0; */
+
+ /*  transform: translate(-37px, -67px); */
+}
+.offer__content{
+  margin-top: 36px;
+  padding-left: 10px;
+}
+.card__text {
+  max-width: 370px;
+  margin-bottom: 87px;
+}
+.card__button {
+  border-radius: 11px;
+  border: 2px solid #000000;
+  padding: 9px 43px;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.card__button:hover {
+  background-color: #FFFFFF;
+  transform: scale(1.1);
+  border: 2px solid #FFFFFF;
+}
+
+
+
+.offer__email-container {
+  display: flex;
+  align-items: center;
+
+  margin-top: 35px;
+}
+.email-container__input {
+  width: 306px; 
+  padding: 9px;
+  border-radius: 11px;
+  border: none;
+  background-color: #dcdcdc;
+  font-size: 16px;
+  margin-right: 10px;
+  color: #000000;
+  box-sizing: border-box;
+  font-family: 'TT Norms Pro Regular';
+
+}
+.email-container__button {
+  padding: 7px 36px 9px 37px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: 2px solid white; /* Белая окантовка */
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  font-family: 'TT Norms Pro Medium';
+  max-height: 16px;
+  align-items: center;
+  text-align: center;
+}
+.email-container__button:hover {
+  background-color: #FFFFFF;
+  transform: scale(1.1);
+  border: 2px solid #FFFFFF;
+  color: #000000;
+}
+
+
+/*SECTION_3_ABOUT US*/
+
+.team {
+  margin-top: 150px;
+}
+
+.team__title {
+  font-family: 'TT Norms Pro Bold';
+  font-size: 48px;
+}
+
+.team__text {
+  max-width: 644px;
+  margin-top: 32px;
+  font-size: 24px;
+}
+
+.team__img {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+
+}
+
+.team__img__member {
+  max-width: 644px;
+  max-height: 304px;
+  border-radius: 11px;
+  border: 1px solid #000000;
+}
+
+.team__name {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 374px;
+  max-width: 644px;
+  border-bottom: 2px solid #FFFFFF;
+  padding: 62px 0 15px 0;
+}
+
+.team__name__secondname {
+  font-family: 'TT Norms Pro Medium';
+  font-size: 24px;
+}
+
+.team__name__job {
+  font-size: 24px;
+}
+
+/*FOOTER*/
+
+.footer {
+  margin-top: 145px;
+}
+
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.footer__social__title {
+  font-family: 'TT Norms Pro DemiBold';
+  font-size: 20px;
+  margin-bottom: 27px;
+}
+
+.footer__social__text {
+  font-size: 20px;
+}
